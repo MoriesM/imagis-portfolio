@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+body {
+  background-color: #111;
+  color: #eee;
+  line-height: 1.6;
+}
+header {
+  background: url('https://via.placeholder.com/1600x800?text=Film+Still') no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+header h1 {
+  font-size: 3em;
+  color: #fff;
+  text-shadow: 2px 2px 5px #000;
+}
+header p {
+  font-size: 1.2em;
+  margin-top: 10px;
+  color: #ccc;
+}
+nav {
+  background: #000;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+nav a {
+  color: #fff;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+section {
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+section h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2em;
+  color: #f04e23;
+}
+.films {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.film {
+  background: #222;
+  padding: 15px;
+  border-radius: 8px;
+  width: 250px;
+  text-align: center;
+}
+.film img {
+  width: 100%;
+  border-radius: 5px;
+}
+.film h3 {
+  margin: 10px 0 5px;
+}
+iframe {
+  max-width: 100%;
+  border: none;
+  border-radius: 10px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+form input,
+form textarea {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+form button {
+  padding: 10px;
+  background: #f04e23;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1em;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #000;
+  color: #aaa;
+}
